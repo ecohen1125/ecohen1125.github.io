@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+Eli Cohen's Projects
 
 You can use the [editor on GitHub](https://github.com/ecohen1125/ecohen1125.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
