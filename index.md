@@ -34,7 +34,7 @@ This is the image gallery that is on the Home Page. The arrows underneath it all
 This is the footer that is on every page. It has my name, ways to contact me, and my social media.
 ![image](https://user-images.githubusercontent.com/77858375/167947870-9c28beb5-c209-4cba-9732-5e563ff7db56.png)
 
-This is the table that is in the Roster page. It is a sortable that sorts the column based on which heading you click. An arrow will appear showing which direction it is currently being sorted.
+This is the table that is in the Roster page. It sorts the column based on which heading you click. An arrow will appear showing which direction it is currently being sorted.
 ![image](https://user-images.githubusercontent.com/77858375/167948026-ec158361-3fe2-4f1d-934a-7f8b46f0b04a.png)
 
 This is the Schedule page. When either Home Games or Away Games is clicked, it will display only them. When it is pressed a second time, all games are shown.
