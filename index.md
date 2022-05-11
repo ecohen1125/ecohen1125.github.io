@@ -9,12 +9,15 @@ I was working in a team with Jacob Day and Evan Japundza, and this app was made 
 This app is a drawing app that has the ability to save drawings to be able to be viewed in a table view controller.
 
 This is the Canvas for drawing in the app. The user is able to touch the screen and a line will be drawn wherever one touches. There is a new canvas button in the top right that will reset the drawing. There is a save canvas button in the top rights that saves the drawing to be displayed in the table view controller. There is a random background button that asks the user for permisson to access their camera roll. It picks a random picture out of it to be displayed in the background. The user is then able to trace over it.
+
 ![image](https://user-images.githubusercontent.com/77858375/167950454-12129956-9980-40b4-b1d3-e9bddefc43e5.png)
 
 These are the setting that the user has to draw with. The user can change the color of the pencil that they draw with along with the color of the background. The slider allows the user to change the thickness of their pencil.
+
 ![image](https://user-images.githubusercontent.com/77858375/167950930-8e6fdb56-4ed3-4e31-9a09-bb2779942e88.png)
 
 This is the table view controller that shows the user their saved drawings. It also has a button that lets the user share their drawing on social media or save it to their camera roll.
+
 ![image](https://user-images.githubusercontent.com/77858375/167951315-52e6e0aa-2efc-4e6e-b8bf-bbf44308f172.png)
 
 
