@@ -46,3 +46,22 @@ This is the table in the Stats page. It is another sortable table like the one i
 This is the Social Media page. It displays, using flexbox, different tweets that I liked from the Grizzlies community on Twitter.
 ![image](https://user-images.githubusercontent.com/77858375/167948998-b7b905a8-c566-44ed-b7e5-51210d9baf86.png)
 
+
+## Sleep, Rest, Diet, and Exercise
+
+This is the game that I am working on during my internship with Relilience, Inc. This is a PC game that is designed to help children learn how to manage sleep, rest, diet, and exercise. This game is being made in Unity with maps made in Tiled. This game is not yet finished, but it is close. 
+
+The Menu scene is what the player will see when they open the game. It lets the player start the game, change options like volume, quit, and see the credits. It will have a picture of the map in the background soon.
+![image](https://user-images.githubusercontent.com/77858375/167956858-53ad2090-40fc-4a3b-bf5b-404738a93895.png)
+
+The apartment scene is where the player starts the game. The player is able interact with the fridge in order to answer some questions about being healthy. They will lose energy if the wrong food is picked. The player is also able to sleep to restore their energy.
+![image](https://user-images.githubusercontent.com/77858375/167957077-6d387ea2-f8e7-4587-8fc0-d1990ac267a7.png)
+
+The map is how the player goes from one location to the next. The player will click on the place they want to go to.
+![image](https://user-images.githubusercontent.com/77858375/167957262-d354c5ba-52a0-4fe5-b47a-e017f37e4dde.png)
+
+The restaurant is where the player has the option to eat healthy or unhealthy foods. Depending on what food is choosen, their energy will change accordingly.
+![image](https://user-images.githubusercontent.com/77858375/167957332-801e0789-4a4e-47b8-9e9e-1ee7e86d7589.png)
+
+The gym allows the player to increase their maximum energy. The player can work out and feel energised the next day.
+![image](https://user-images.githubusercontent.com/77858375/167957482-d88f9ed2-c566-4135-bc3c-83d1937aae7a.png)
