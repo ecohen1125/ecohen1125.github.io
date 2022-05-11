@@ -40,7 +40,7 @@ This is the table that is in the Roster page. It sorts the column based on which
 This is the Schedule page. When either Home Games or Away Games is clicked, it will display only them. When it is pressed a second time, all games are shown.
 ![image](https://user-images.githubusercontent.com/77858375/167948273-d7288ef4-6577-497c-adce-52f4bb559e02.png)
 
-This is the table in the Stats page. It is another sortable table like the one in the Roster page and has the same effects,
+This is the table in the Stats page. It is another sortable table like the one in the Roster page and has the same effects.
 ![image](https://user-images.githubusercontent.com/77858375/167948870-e01b8e3e-4e7f-4301-8dc9-1e8418958da8.png)
 
 This is the Social Media page. It displays, using flexbox, different tweets that I liked from the Grizzlies community on Twitter.
