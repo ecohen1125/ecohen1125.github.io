@@ -61,6 +61,7 @@ The map is how the player goes from one location to the next. The player will cl
 ![image](https://user-images.githubusercontent.com/77858375/167957262-d354c5ba-52a0-4fe5-b47a-e017f37e4dde.png)
 
 The restaurant is where the player has the option to eat healthy or unhealthy foods. Depending on what food is choosen, their energy will change accordingly.
+
 ![image](https://user-images.githubusercontent.com/77858375/167957332-801e0789-4a4e-47b8-9e9e-1ee7e86d7589.png)
 
 The gym allows the player to increase their maximum energy. The player can work out and feel energised the next day.
