@@ -47,9 +47,9 @@ This is the Social Media page. It displays, using flexbox, different tweets that
 ![image](https://user-images.githubusercontent.com/77858375/167948998-b7b905a8-c566-44ed-b7e5-51210d9baf86.png)
 
 
-## Sleep, Rest, Diet, and Exercise
+## [Sleep, Rest, Diet, and Exercise](https://resilience-inc.itch.io/eat)
 
-This is the game that I am working on during my internship with Relilience, Inc. This is a PC game that is designed to help children learn how to manage sleep, rest, diet, and exercise. This game is being made in Unity with maps made in Tiled. This game is not yet finished, but it is close. 
+This is the game that I am working on during my internship with Relilience, Inc. This is a PC game that is designed to help children learn how to manage sleep, rest, diet, and exercise. This game is being made in Unity with maps made in Tiled. 
 
 The Menu scene is what the player will see when they open the game. It lets the player start the game, change options like volume, quit, and see the credits. It will have a picture of the map in the background soon.
 ![image](https://user-images.githubusercontent.com/77858375/167956858-53ad2090-40fc-4a3b-bf5b-404738a93895.png)
@@ -66,3 +66,4 @@ The restaurant is where the player has the option to eat healthy or unhealthy fo
 
 The gym allows the player to increase their maximum energy. The player can work out and feel energised the next day.
 ![image](https://user-images.githubusercontent.com/77858375/167957482-d88f9ed2-c566-4135-bc3c-83d1937aae7a.png)
+
