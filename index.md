@@ -67,6 +67,6 @@ The restaurant is where the player has the option to eat healthy or unhealthy fo
 The gym allows the player to increase their maximum energy. The player can work out and feel energised the next day.
 ![image](https://user-images.githubusercontent.com/77858375/167957482-d88f9ed2-c566-4135-bc3c-83d1937aae7a.png)
 
-## [Learn Lambda Calculus: The Fun Way]([https://resilience-inc.itch.io/eat](https://github.com/ecohen1125/Learn-Lambda-Calculus)https://github.com/ecohen1125/Learn-Lambda-Calculus)
+## [Learn Lambda Calculus: The Fun Way](https://github.com/ecohen1125/Learn-Lambda-Calculus)https://github.com/ecohen1125/Learn-Lambda-Calculus)
 
 
