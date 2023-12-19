@@ -14,7 +14,7 @@ This is the Canvas for drawing in the app. The user is able to touch the screen 
 
 These are the setting that the user has to draw with. The user can change the color of the pencil that they draw with along with the color of the background. The slider allows the user to change the thickness of their pencil.
 
-![image](https://user-images.githubusercontent.com/77858375/167950930-8e6fdb56-4ed3-4e31-9a09-bb2779942e88.png)
+![image](https://user-images.githubusercontent.com/77858375/167950930-8e6fdb56-4ed3-4e31-9a09-bb2779942e88.png )
 
 This is the table view controller that shows the user their saved drawings. It also has a button that lets the user share their drawing on social media or save it to their camera roll.
 
@@ -52,7 +52,7 @@ This is the Social Media page. It displays, using flexbox, different tweets that
 This is the game that I am working on during my internship with Relilience, Inc. This is a PC game that is designed to help children learn how to manage sleep, rest, diet, and exercise. This game is being made in Unity with maps made in Tiled. 
 
 The Menu scene is what the player will see when they open the game. It lets the player start the game, change options like volume, quit, and see the credits. It will have a picture of the map in the background soon.
-![image](https://user-images.githubusercontent.com/77858375/167956858-53ad2090-40fc-4a3b-bf5b-404738a93895.png)
+![image](![image](https://github.com/ecohen1125/ecohen1125.github.io/assets/77858375/ecc7b4f2-3cec-44e3-b207-0701af96de0c)
 
 The apartment scene is where the player starts the game. The player is able interact with the fridge in order to answer some questions about being healthy. They will lose energy if the wrong food is picked. The player is also able to sleep to restore their energy.
 ![image](https://user-images.githubusercontent.com/77858375/167957077-6d387ea2-f8e7-4587-8fc0-d1990ac267a7.png)
@@ -66,4 +66,7 @@ The restaurant is where the player has the option to eat healthy or unhealthy fo
 
 The gym allows the player to increase their maximum energy. The player can work out and feel energised the next day.
 ![image](https://user-images.githubusercontent.com/77858375/167957482-d88f9ed2-c566-4135-bc3c-83d1937aae7a.png)
+
+## [Learn Lambda Calculus: The Fun Way]([https://resilience-inc.itch.io/eat](https://github.com/ecohen1125/Learn-Lambda-Calculus)https://github.com/ecohen1125/Learn-Lambda-Calculus)
+
 
