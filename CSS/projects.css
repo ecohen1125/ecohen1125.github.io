@@ -20,7 +20,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 0.5em;
-  width: 50%;
+  width: 60%;
   border-radius: 10px;
 }
 
@@ -28,7 +28,6 @@ body {
   display: flex;
   justify-content: center;
   padding: 1em;
-  /* width: 50%; */
 }
 
 #project #textbox {
@@ -36,6 +35,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 
 #project #name {
@@ -48,11 +48,7 @@ body {
 #project #techStack {
   font-weight: bold;
   margin: 0;
-  color: var(--maingrey);
-}
-
-#project #text {
-    /* width: auto; */
+  color: var(--mainred);
 }
 
 #project #photo {
@@ -70,16 +66,80 @@ body {
 
 #borderfix {
   background-color: var(--mainblue);
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #fixborder2 {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+/* Image slideshow from https://www.w3schools.com/howto/howto_js_slideshow.asp as starter */
+
+* {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: 0;
+  width: 50%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border-width: 0;
+}
+
+.next {
+  right: -32px;
+}
+
+.prev {
+  left: -32px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
