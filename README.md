@@ -1,4 +1,3 @@
-# ecohen1125.github.io
+# Eli Cohen's Web Prtfolio
 
-This is a collection of the projects that I have made and worked on. 
-This website displays these projects in a way that allows anyone to see what each project is and where to find it.
+Welcome to my website! Here I am sharing a little about me, my projects, and ways to contact me.
