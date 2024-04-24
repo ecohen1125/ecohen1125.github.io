@@ -118,7 +118,7 @@ function CreateProject(name, techStack, images, description, link) {
 CreateProject(
   "In Color",
   ["XCode", "Swift"],
-  ["../images/InColor/InColor.png", "images/InColor/InColorSavedImages.png", "images/InColor/InColorSettings.png"],
+  ["images/InColor/InColor.png", "images/InColor/InColorSavedImages.png", "images/InColor/InColorSettings.png"],
   "In Color is a drawing app that lets the user draw on a canvas. It has setting that let the user chnage the color of the background, the color of the pen, and the thickness of the pen. It also allows for the user to trace images that can be uploaded. Finally, the user can save their drawing to be viewed later. I implemented this part using persistent storage.",
   "https://github.com/ecohen1125/In-Color"
 );
