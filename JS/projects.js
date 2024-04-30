@@ -1,5 +1,10 @@
 var numProjects = 0;
 
+var projectsButton = document.getElementById("projtctBtn");
+var addProjectMenu = document.getElementById("bigAddProject");
+
+addProjectMenu.style.display = "none";
+
 function CreateProject(name, techStack, images, description, link) {
   var wholeProject = document.createElement("div");
   wholeProject.id = "fixborder2";
@@ -107,7 +112,7 @@ function CreateProject(name, techStack, images, description, link) {
     }
   });
 
-    descriptionBlock.style.display = "none";
+  descriptionBlock.style.display = "none";
 
   wholeProject.appendChild(descriptionBlock);
 
@@ -135,7 +140,7 @@ CreateProject(
     "images/MemphisGrizzliesWeb/ImageCarousel.png",
     "images/MemphisGrizzliesWeb/SocialMedia.png",
   ],
-  "Memphis Grizzlies Fan Website is a website that I made to display information about the Memphis Grizzlies. It shows the roster, stats, and schedule of the team. It also has a footer with links to the my social media at the bottom. The website is responsive and has a carousel of images of the team. The stats page is also interactive and allows the user to filter the stats by player and sort each stats by highest and lowest.",
+  "Memphis Grizzlies Fan Website is a website that I made to display information about the Memphis Grizzlies. It shows the roster, stats, and schedule of the team. It also has a footer with links to my social media. The website is responsive and has a carousel of images of the team. The stats page is also interactive and allows the user to filter the stats by player and sort each stats by highest and lowest.",
   "https://github.com/ecohen1125/MemphisGrizzliesFanWebsite"
 );
 
@@ -153,10 +158,26 @@ CreateProject(
   "https://resilience-inc.itch.io/eat"
 );
 
-// Image slideshow from https://www.w3schools.com/howto/howto_js_slideshow.asp as starter code
+CreateProject(
+  "IU Hillel App",
+  ["React Native", "Firebase", "CSS"],
+  ["images/zipline.jpg"],
+  "The IU Hillel App is an app that I made for the IU Hillel. The app has a calendar that shows all the events that are happening at the Hillel. They are in chronological order. This uses the Google Calendar API. I had to manually sort them using an algorithm that I made. It also has a page that lets you check into events. This only works if you are in the building because I added a geo locator in a range around the building. The check in data is then stored in Firebase and can be sent to IU Hillel for their own use.",
+  "https://github.com/ecohen1125/IUHillelApp/tree/main"
+);
+
+CreateProject(
+  "Crystal Assault: Veiled Conquest",
+  ["Unity3D", "C#"],
+  ["images/CrystalAssaultVeiledConquest/MainMenu.png", "images/CrystalAssaultVeiledConquest/game.png", "images/CrystalAssaultVeiledConquest/Credits.png", "images/CrystalAssaultVeiledConquest/Settings.png", "images/CrystalAssaultVeiledConquest/SeedMenu.png"],
+  "This project wa part of a game jam that I did for a class with 2 other people. We had 48 hours to make a game with the theme being 'reverse.' We interpreted this theme as the reversal of a core game mechanic. Most tower defense games have the player root their towers down, while mobile enemies are able to move through a path with the goal of destroying the player's towers. We applied our interpretation by creating a reverse tower defense, where the player is essentially the antagonist, spawning the evil units to defeat the towers. The game has a full menu system with settings, a way to choose random maps using seeds, and detailed art/graphics.",
+  "https://github.com/KYANI7E/TheStoats"
+);
+
+// Starter code for Image slideshow from https://www.w3schools.com/howto/howto_js_slideshow.asp
 var slideIndexContainer = {};
 for (let i = 0; i < document.getElementsByClassName("slideshow-container").length; i++) {
-  slideIndexContainer[i] = [document.getElementsByClassName("slideshow-container")[i], i];
+  slideIndexContainer[i] = [document.getElementsByClassName("slideshow-container")[i], 0];
 }
 
 for (let i = 0; i < Object.keys(slideIndexContainer).length; i++) {
@@ -186,18 +207,29 @@ function showSlides(n, ind) {
   slides[slideIndexContainer[ind][1]].style.display = "block";
 }
 
-// function LargestImage(images) {
-//   let largest = images[0];
-//   images.forEach((image) => {
-//     if (image.width > largest.width) {
-//       largest = image;
-//     }
-//   });
-//   return largest;
-// }
+projectsButton.addEventListener("click", function () {
+  if (addProjectMenu.style.display == "none") {
+    addProjectMenu.style.display = "flex";
+  } else {
+    addProjectMenu.style.display = "none";
+  }
+});
 
-var projects = document.getElementsByClassName("newproject");
+var submitBtn = document.getElementById("submitProject");
 
-// Array.prototype.forEach.call(projects, function (project) {
+submitBtn.addEventListener("click", function () {
+  var name = document.getElementById("projectName").value;
+  var techStack = document.getElementById("techStack").value.split(", ");
+  var files = document.getElementById("images").files;
+  var description = document.getElementById("projectDesc").value;
+  var link = document.getElementById("projectLink").value;
 
-// });
+  console.log("Project Name: " + name);
+  console.log("Tech Stack: " + techStack);
+  console.log("Description: " + description);
+  console.log("Link: " + link);
+
+  // CreateProject(name, techStack, images, description, link);
+
+  addProjectMenu.style.display = "none";
+});
