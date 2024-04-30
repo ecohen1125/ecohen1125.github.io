@@ -25,6 +25,7 @@ h1 {
   align-items: center;
   font-size: 5em;
   margin: 0;
+  padding: 1.0em;
 }
 
 #subtitle {
@@ -40,7 +41,7 @@ h1 {
 
 #left {
   vertical-align: middle;
-  background: url("../images/convocation.jpg") no-repeat 0 0;
+  background: url("../images/EliGown.jpg") no-repeat 0 0;
   background-size: cover;
 }
 
