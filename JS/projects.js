@@ -161,7 +161,7 @@ CreateProject(
 CreateProject(
   "IU Hillel App",
   ["React Native", "Firebase", "CSS"],
-  ["images/zipline.jpg"],
+  ["images/zipline.JPG"],
   "The IU Hillel App is an app that I made for the IU Hillel. The app has a calendar that shows all the events that are happening at the Hillel. They are in chronological order. This uses the Google Calendar API. I had to manually sort them using an algorithm that I made. It also has a page that lets you check into events. This only works if you are in the building because I added a geo locator in a range around the building. The check in data is then stored in Firebase and can be sent to IU Hillel for their own use.",
   "https://github.com/ecohen1125/IUHillelApp/tree/main"
 );
@@ -169,7 +169,7 @@ CreateProject(
 CreateProject(
   "Crystal Assault: Veiled Conquest",
   ["Unity3D", "C#"],
-  ["images/CrystalAssaultVeiledConquest/MainMenu.png", "images/CrystalAssaultVeiledConquest/game.png", "images/CrystalAssaultVeiledConquest/Credits.png", "images/CrystalAssaultVeiledConquest/Settings.png", "images/CrystalAssaultVeiledConquest/SeedMenu.png"],
+  ["images/CrystalAssaultVeiledConquest/MainMenu.png", "images/CrystalAssaultVeiledConquest/Game.png", "images/CrystalAssaultVeiledConquest/Credits.png", "images/CrystalAssaultVeiledConquest/Settings.png", "images/CrystalAssaultVeiledConquest/SeedMenu.png"],
   "This project wa part of a game jam that I did for a class with 2 other people. We had 48 hours to make a game with the theme being 'reverse.' We interpreted this theme as the reversal of a core game mechanic. Most tower defense games have the player root their towers down, while mobile enemies are able to move through a path with the goal of destroying the player's towers. We applied our interpretation by creating a reverse tower defense, where the player is essentially the antagonist, spawning the evil units to defeat the towers. The game has a full menu system with settings, a way to choose random maps using seeds, and detailed art/graphics.",
   "https://github.com/KYANI7E/TheStoats"
 );
